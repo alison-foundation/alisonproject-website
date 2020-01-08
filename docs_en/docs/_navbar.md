@@ -1,0 +1,3 @@
+window.$docsify = {
+    loadNavbar: true
+  }
