@@ -1,13 +1,16 @@
+# Introduction
+
+Here you will find everything you need about Alison, what things you need to build it, and how to use it.  
+If you wish to consult documentation in French, click here (COMING SOON).
+
 # Hardware requirements
 
-The Alison System requires three main hardware components to function :  
+The Alison System requires three main hardware components to function : 
 
-- An android phone with Android version 5.0 Lollipop or later
+- A [Raspberry Pi 3B+ or Raspberry Pi 4](https://www.raspberrypi.org/products) (other versions may be functional but have not yet been tested). You can view specific instructions for each device below
+- An Android phone with Android version 5.0 Lollipop or later
+- \[OPTIONAL\] If you wish to have other lighting sources, you can use a [Philips Hue](https://www2.meethue.com/fr-fr) system with multi-color lightbulb (both lightbulb AND bridge) or any other connected lightbulbs with non-official support. 
   
-- A [Philips Hue](https://www2.meethue.com/fr-fr) system with multi-color lightbulb (both lightbulb AND bridge)  
-  
-- A [Raspberry Pi 3B+](https://www.raspberrypi.org/products) (other versions may be functional but have not yet been tested)  
-
 # Raspberry Pi Software Installation 
 
 ## Prerequisites
@@ -35,7 +38,7 @@ Select A4 Audio
 Select 1 Force 3.5mm ('headphone') jack
 Select Finish
 ```
-- Install the respeaker library
+- Install the Respeaker library
 ```
 sudo apt install python3-pip
 pip install pocketsphinx webrtcvad
@@ -72,7 +75,7 @@ sudo apt-get update
 sudo apt-get install isc-dhcp-server
 sudo nano /etc/dhcp/dhcpd.conf
 ```
-At the bottom of the file that opens, write the following lines:
+At the bottom of the file that opens, add the following lines:
 ```
 option subnet-mask 255.255.255.0;
 option routers 192.168.4.100;
@@ -84,7 +87,7 @@ Then :
 ```
 sudo nano /etc/defaults/isc-dhcp-server
 ```
-In the file that opens, uncomment the following lines and add eth0 on the last one:
+In the file that opens, uncomment the following lines and add eth0 to the last one:
 ```
 DHCPD_CONF=/etc/dhcp/dhcpd.conf
 DHCPD_PID=/var/run/dhcpd.pid
@@ -99,11 +102,11 @@ The app requires an Android device version 5.0 (Lollipop) or higher with a funct
 
 ## Installation
 
-The app isn't available on the Google Play Store yet. Simply download the apk from our [website](https://alisonproject.ml) and that's it! You're now ready to use the Alison System!
+The app isn't available in the Google Play Store yet. Simply download the APK file from our [website](https://alisonproject.ml) and that's it! You're now ready to use the Alison System!
 
 # Using the app to record sounds 
 
-With the Raspberry Pi set-up and connected, get into the companion app and start recording sounds that you want to recognize, and associating a color with each sound.   
+With the Raspberry Pi set-up and connected, open the companion app and start recording sounds that you want to recognize such as your phone's ringtone or your doorbell, and associate a color with each sound.   
   
 The system is now fully operational! It will detect sounds in real-time, and you can add or remove a given sound any time using the app.  
   

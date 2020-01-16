@@ -1,14 +1,14 @@
 # The Alison Project Android Application
-The android application for the state-of-the-art sound recognition solution designed to help people suffering from hearing impairment or deafness all over the world. 
-More details on our [website](https://alisonproject.ml)
+The Android application for the state-of-the-art sound recognition solution designed to help people suffering from hearing impairment or deafness world-wide. 
+More details on our [website](https://alison-foundation.github.io/alisonproject-website/)
 
 ## Getting Started
 
-You can download the android application on our website or directly from this git repository.
-The application is soon to be available on the Google PlayStore.
+You can download the Android application on our website or directly from this git repository.
+The application will be available from the Google Play Store.
 
 ### Usage
-+ In the first screen of the application you have to find the raspberry device to which you want to connect  
++ In the first screen of the application you have to find the Raspberry device to which you want to connect to 
   
 <img src="https://raw.githubusercontent.com/Faymir/alison-project-android-app/master/find_device.jpeg" alt="find device" width="200" height="390"/>
 
@@ -16,17 +16,17 @@ The application is soon to be available on the Google PlayStore.
 
 <img src="https://raw.githubusercontent.com/Faymir/alison-project-android-app/master/start_record.jpeg" alt="start_recording screenshot" width="200" height="390"/>
 
-+ After that you can start recording the sound you want to recognize by clicking the start record icon
++ After that you can start recording the sounds you want to recognize by clicking the **start record** icon
 + When you finish you can click it again to stop recording
-+ then enter a tag to associate to the record and select light color to emit when the device recognizes the sound.
++ Then enter a tag to associate it with the recording and select a light color to emit when the device recognizes the sound.
 + Finally, you can click Ok to validate.
 
-**yeay!🤗 your sound is learned**
+**Yay!🤗 your sound has been learned**
 
 ### Prerequisites
 
-+ A phone device running android **version >= 4.16** and supporting Bluetooth.
-+ A Raspberry pi configure following steps defined on this [repository](https://github.com/VincentErb/AlisonProject) and [here](https://github.com/VincentErb/AlisonProject/blob/master/bluetooth_server/README.md)
++ A phone device running Android **version >= 4.16** and supporting Bluetooth.
++ A Raspberry Pi configured following steps defined in this [repository](https://github.com/VincentErb/AlisonProject) and [here](https://github.com/VincentErb/AlisonProject/blob/master/bluetooth_server/README.md)
 
 ```
 Android [JellyBean](https://developer.android.com/reference/android/os/Build.VERSION_CODES.html#JELLY_BEAN)
@@ -35,7 +35,7 @@ Android [JellyBean](https://developer.android.com/reference/android/os/Build.VER
 ### Installing
 
 + Android studio: [dowload here](https://developer.android.com/studio/).
-+ clone this repository and open it in android studio
++ Clone this repository and open it in Android Studio
 
 
 ## Built With
@@ -46,7 +46,7 @@ Android [JellyBean](https://developer.android.com/reference/android/os/Build.VER
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+## Version
 For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
