@@ -1,31 +1,31 @@
 # The Alison Project Android Application
-The android application for the state-of-the-art sound recognition solution designed to help people suffering from hearing impairement or deafness all over the world. 
+The android application for the state-of-the-art sound recognition solution designed to help people suffering from hearing impairment or deafness all over the world. 
 More details on our [website](https://alisonproject.ml)
 
 ## Getting Started
 
-You can dowload the android application on our website or directly from this git repository.
-The application be soon available on the Google PlayStore.
+You can download the android application on our website or directly from this git repository.
+The application is soon to be available on the Google PlayStore.
 
 ### Usage
 + In the first screen of the application you have to find the raspberry device to which you want to connect  
   
 <img src="https://raw.githubusercontent.com/Faymir/alison-project-android-app/master/find_device.jpeg" alt="find device" width="200" height="390"/>
 
-+ Then clik connect  
++ Then click connect  
 
 <img src="https://raw.githubusercontent.com/Faymir/alison-project-android-app/master/start_record.jpeg" alt="start_recording screenshot" width="200" height="390"/>
 
-+ After that you can start recoding the sound you want to recognize by clicking the start record icon
++ After that you can start recording the sound you want to recognize by clicking the start record icon
 + When you finish you can click it again to stop recording
-+ then enter a tag to assciate to the record and select light color to emit when the device recognize the sound.
-+ Finally you can click Ok to validate.
++ then enter a tag to associate to the record and select light color to emit when the device recognizes the sound.
++ Finally, you can click Ok to validate.
 
 **yeay!🤗 your sound is learned**
 
 ### Prerequisites
 
-+ A phone device running android **version >= 4.16** and supporting bluetooth.
++ A phone device running android **version >= 4.16** and supporting Bluetooth.
 + A Raspberry pi configure following steps defined on this [repository](https://github.com/VincentErb/AlisonProject) and [here](https://github.com/VincentErb/AlisonProject/blob/master/bluetooth_server/README.md)
 
 ```

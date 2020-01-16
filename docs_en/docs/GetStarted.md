@@ -2,7 +2,7 @@
 
 The Alison System requires three main hardware components to function :  
 
-- An android phone with Android version 5.0 Lollipop or later  
+- An android phone with Android version 5.0 Lollipop or later
   
 - A [Philips Hue](https://www2.meethue.com/fr-fr) system with multi-color lightbulb (both lightbulb AND bridge)  
   
@@ -11,6 +11,7 @@ The Alison System requires three main hardware components to function :
 # Raspberry Pi Software Installation 
 
 ## Prerequisites
+
 
 Your Raspberry Pi must run the latest version of Raspbian available.  
 [More info about Raspbian here](https://raspbian.org/ "Raspbian- Main page")
@@ -46,7 +47,7 @@ pip install -U https://github.com/respeaker/respeaker_python_library/archive/mas
 sudo pip install numpy scipy matplotlib soundfile resampy audioread phue netifaces
 sudo apt-get install python-tk
 ```
-## Setup DHCP on Ethernet port to connecte with Philips Hue bridge
+## Setup DHCP on Ethernet port to connect with Philips Hue bridge
 - Assign a static IP address to the Ethernet port (eth0)
 ```
 sudo nano /etc/dhcpcd.conf
@@ -94,16 +95,16 @@ INTERFACES="eth0"
 
 ## Requirements
 
-The app requires an Android device version 5.0 (Lollipop) or higher with a functioning bluetooth connectivity.
+The app requires an Android device version 5.0 (Lollipop) or higher with a functioning Bluetooth connectivity.
 
 ## Installation
 
-The app isn't available on the Google Play Store yet. Simply download the apk from our [website](https://alisonproject.ml) and that's it !   You're now ready to use the Alison System !
+The app isn't available on the Google Play Store yet. Simply download the apk from our [website](https://alisonproject.ml) and that's it! You're now ready to use the Alison System!
 
 # Using the app to record sounds 
 
 With the Raspberry Pi set-up and connected, get into the companion app and start recording sounds that you want to recognize, and associating a color with each sound.   
   
-The system is now fully operational ! It will detect sounds in real time, and you can add or remove a given sound any time using the app.  
+The system is now fully operational! It will detect sounds in real-time, and you can add or remove a given sound any time using the app.  
   
  
