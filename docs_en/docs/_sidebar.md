@@ -8,7 +8,6 @@
 
   - [Learning phase](Learning.md)
   - [NMF Explained](NoticeNMF.md)
-  - [Custom NMF Adjustments](README.md)
 
 - Resources & Libraries 
 
