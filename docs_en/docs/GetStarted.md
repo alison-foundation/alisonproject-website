@@ -15,7 +15,6 @@ The Alison System requires three main hardware components to function :
 
 ## Prerequisites
 
-
 Your Raspberry Pi must run the latest version of Raspbian available.  
 [More info about Raspbian here](https://raspbian.org/ "Raspbian- Main page")
 
